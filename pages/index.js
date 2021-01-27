@@ -1,18 +1,13 @@
+import React from 'react';
 import styled from 'styled-components';
 import db from '../db.json';
 import Widget from '../src/components/widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
+import QuizLogo from '../src/components/QuizLogo';
 
 import Header from '../src/components/Header';
-
-const BackgroundImage = styled.div`
-  background-image: url(${db.bg});
-  flex: 1;
-  background-size: cover;
-  background-position: center;
-`;
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -28,9 +23,11 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
-      <Header/>
-      
+      <Header />
+
       <QuizContainer>
+        <QuizLogo />
+
         <Widget>
           <Widget.Header>
             <h1>hello</h1>
@@ -47,9 +44,9 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-        <Footer/>
+        <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/gustavo-mf/aluraquiz-base"/>
+      <GitHubCorner projectUrl="https://github.com/gustavo-mf/aluraquiz-base" />
     </QuizBackground>
   );
 }
