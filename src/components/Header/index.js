@@ -6,7 +6,7 @@ function Header() {
   return (
     <div>
       <Head>
-        <title>Ghibli Quiz</title>
+        <title>{db.title}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <meta property="og:url" content="https://aluraquiz-base.gustavo-mf.vercel.app/" />
