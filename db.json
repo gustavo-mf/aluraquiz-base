@@ -14,15 +14,116 @@
         "#elemento",
         "%elemento"
       ]
-    },
-    {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+    }, {
+      "image": "",
+      "title": "Da Colina Kokuriko",
+      "description": "",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "",
+         ""
+      ]
+    }, {
+      "image": "",
+      "title": "Vidas ao Vento",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "",
+         ""
+      ]
+    }, {
+      "image": "",
+      "title": "Da Colina Kokuriko",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "",
+         ""
+      ]
+    }, {
+      "image": "",
+      "title": "O Mundo dos Pequeninos",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "",
+         ""
+      ]
+    }, {
+      "image": "",
+      "title": "A Viagem de Chihiro",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "",
+         ""
+      ]
+    }, {
+      "image": "",
+      "title": "Princesa Mononoke",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "",
+         ""
+      ]
+    }, {
+      "image": "",
+      "title": "Sussurros do Coração",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "",
+         ""
+      ]
+    }, {
+      "image": "",
+      "title": "Porco Rosso: O Último Herói Romântico",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "",
+         ""
+      ]
+    }
+    , {
+      "image": "",
+      "title": "O Serviço de Entregas da Kiki",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "",
+         ""
+      ]
+    }
+    , {
+      "image": "",
+      "title": "O Castelo no Céu",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "",
+         ""
+      ]
+    }, {
+      "image": "",
+      "title": "Nausicaä do Vale do Vento",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "",
+         ""
+      ]
+    }, {
+      "image": "",
+      "title": "Quais são os pricipais temos abordados nas animações criadas pelo estudio?",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+        "Um retrato do mundo moderno e suas incriveis inovações",
+        "Relação entre humanidade, natureza e tecnologia, diferença dos padrões de vida naturais e tradicionais e a dificuldade de manter uma ética pacifista em um mundo violento.",
+        "Como a natureza deve ser preservada e as novas tecnologias sejam destruidas."
       ]
     }
   ],
