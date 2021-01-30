@@ -4,120 +4,130 @@
   "description": "Teste os seus conhecimentos sobre o estudio Ghibli :)",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
-      "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
-      ]
-    }, {
-      "image": "",
-      "title": "Da Colina Kokuriko",
+      "image": "https://miro.medium.com/max/1400/0*QCFeVqyUqBsGUSh5.jpg",
+      "title": "No filme \"Da Colina Kokuriko\" o que os estudante tentam salvar?",
       "description": "",
       "answer": 0,
       "alternatives": [
-         "",
-         ""
+         "Um clube de esportes",
+         "Um abrigo de animais",
+         "Um asilo de velhinhos",
+         "Uma casa de clubes, onde os alunos exercem várias atividades extracurriculares."
       ]
     }, {
-      "image": "",
-      "title": "Vidas ao Vento",
+      "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeVp2SZG4SnHeTZN8O4JI-bp3ZsLPPjp104x7KfM5LRMmiMhtM6SP-Vt-jV1s6UrUI0SmbGGaPe76PX6fO6O10QpYkRw.jpg?r=7cd",
+      "title": "No filme \"Vidas ao Vento\", qual figura trás grande inspiração ao protagonista?",
       "description": "",
       "answer": 0,
       "alternatives": [
-         "",
-         ""
+         "Santos dumont",
+         "Irmão Wright",
+         "Giovanni Battista Caproni"
       ]
     }, {
-      "image": "",
-      "title": "Da Colina Kokuriko",
+      "image": "https://2.bp.blogspot.com/-UYY81oiFBBw/VJc6UMQBw6I/AAAAAAAAGY4/jfYpNEk9Ooo/s1600/arriety_500.gif",
+      "title": "No filme \"O Mundo dos Pequeninos\" com quem a protagonista, Arriety, mora?",
       "description": "",
       "answer": 0,
       "alternatives": [
-         "",
-         ""
+         "Seus irmãos",
+         "Seus tios",
+         "Pai e mãe",
+         "Sua Avó"
       ]
     }, {
-      "image": "",
-      "title": "O Mundo dos Pequeninos",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxW4ciBR1dc9RoSqJuS0Ruchnk2ivX72EsQ&usqp=CAU",
+      "title": "Em \"A Viagem de Chihiro\", Quem consegue o emprego na casa de banhos para Chihiro?",
       "description": "",
       "answer": 0,
       "alternatives": [
-         "",
-         ""
+         "Haku",
+         "Kamaji",
+         "Lin",
+         "Yubaba"
       ]
     }, {
-      "image": "",
-      "title": "A Viagem de Chihiro",
+      "image": "https://steamuserimages-a.akamaihd.net/ugc/273970711320541036/274406C90E9A9142A2FB50F89437B696901F9B6E/",
+      "title": "No filme \"A Princesa Mononoke\", Como é chamada a mãe de Sen?",
       "description": "",
       "answer": 0,
       "alternatives": [
-         "",
-         ""
+         "Mononoke",
+         "Eboshi",
+         "Moro",
+         "Ashitaka"
       ]
     }, {
-      "image": "",
-      "title": "Princesa Mononoke",
+      "image": "https://static.wixstatic.com/media/94d0c4_f91bda0912cd408c9150d59951d2eb02~mv2.gif",
+      "title": "Qual o nome da canção criada por Shizuku em \"Sussurros do Coração\"?",
       "description": "",
       "answer": 0,
       "alternatives": [
-         "",
-         ""
+         "Country roads",
+         "Take me home, country roads",
+         "Concrete Road",
+         "Mimi wo Sumaseba"
       ]
     }, {
-      "image": "",
-      "title": "Sussurros do Coração",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsHTxWMvt-noKyiW9vzGjAJo6U9BlEakb80A&usqp=CAU",
+      "title": "Qual o verdadeiro nome do protagonista de \"Porco Rosso: O Último Herói Romântico\"?",
       "description": "",
       "answer": 0,
       "alternatives": [
-         "",
-         ""
-      ]
-    }, {
-      "image": "",
-      "title": "Porco Rosso: O Último Herói Romântico",
-      "description": "",
-      "answer": 0,
-      "alternatives": [
-         "",
-         ""
+         "Porco Rosso",
+         "Marco Pagot",
+         "Donald Curtis",
+         "Piccolo"
       ]
     }
     , {
-      "image": "",
-      "title": "O Serviço de Entregas da Kiki",
+      "image": "https://4.bp.blogspot.com/-qIL1ZJBiy5U/V9cpXJJylbI/AAAAAAAAkRE/bWN9CYLnIz8-PZRG9tq96Rcq81kuXcMmwCLcB/s1600/servico-entregas-kiki-discover-kids-banner.jpg",
+      "title": "Em \"O Serviço de Entregas da Kiki\", com quantos anos Kiki sai de casa para se aperfeicoar?",
       "description": "",
       "answer": 0,
       "alternatives": [
-         "",
-         ""
+         "13",
+         "15",
+         "14",
+         "17"
       ]
     }
     , {
-      "image": "",
-      "title": "O Castelo no Céu",
+      "image": "https://i.pinimg.com/originals/24/8f/65/248f657778824d2d988d7b631c0e23df.gif",
+      "title": "No \"O Castelo no Céu\", Quem ajudou os pratagonistas a chagarem em Laputa?",
       "description": "",
       "answer": 0,
       "alternatives": [
-         "",
-         ""
+         "Exercito",
+         "Piratas",
+         "Mineiros",
+         "Governo"
       ]
     }, {
-      "image": "",
-      "title": "Nausicaä do Vale do Vento",
+      "image": "https://www.omegascopio.com.br/wp-content/uploads/2020/03/nausican.jpg",
+      "title": "Qual o nome dos insetos gigantes que paracem bedouros em \"Nausicaä do Vale do Vento\"",
       "description": "",
       "answer": 0,
       "alternatives": [
-         "",
-         ""
+         "Torumekian",
+         "Ohmu",
+         "Dorok",
+         "Bugs"
       ]
     }, {
-      "image": "",
-      "title": "Quais são os pricipais temos abordados nas animações criadas pelo estudio?",
+      "image": "https://4.bp.blogspot.com/-6fm-0SFWkb4/UjSJs5YSpnI/AAAAAAAAB0Q/PhNGArpcfTM/s1600/o+castelo+animado+4.gif",
+      "title": "Em o \"Castelo animado\", quem é na verdade o espantalho cabeça de nabo?",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "Calcifer, O demonio",
+         "O grande bruxo Pendragon",
+         "Heen, o ajudante de madame Sulliman",
+         "Principe Justin"
+      ]
+    }, {
+      "image": "https://www.japaoemfoco.com/wp-content/uploads/2013/09/Studio-Ghibli-Hayao-Miyazaki.jpg",
+      "title": "Quais são os pricipais temas abordados nas animações criadas pelo estudio?",
       "description": "",
       "answer": 0,
       "alternatives": [
