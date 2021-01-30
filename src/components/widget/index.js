@@ -44,6 +44,10 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+  svg {
+    display: block;
+    margin: 0 auto;
+  }
 `;
 
 Widget.Topic = styled.a`
@@ -61,6 +65,10 @@ Widget.Topic = styled.a`
   &:hover,
   &:focus {
     opacity: .5;
+  }
+  input[type="radio"] {
+    display: none;
+    /*&:checked {  } */
   }
 `;
 

@@ -7,7 +7,7 @@
       "image": "https://miro.medium.com/max/1400/0*QCFeVqyUqBsGUSh5.jpg",
       "title": "No filme \"Da Colina Kokuriko\" o que os estudante tentam salvar?",
       "description": "",
-      "answer": 0,
+      "answer": 3,
       "alternatives": [
          "Um clube de esportes",
          "Um abrigo de animais",
@@ -18,7 +18,7 @@
       "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeVp2SZG4SnHeTZN8O4JI-bp3ZsLPPjp104x7KfM5LRMmiMhtM6SP-Vt-jV1s6UrUI0SmbGGaPe76PX6fO6O10QpYkRw.jpg?r=7cd",
       "title": "No filme \"Vidas ao Vento\", qual figura trás grande inspiração ao protagonista?",
       "description": "",
-      "answer": 0,
+      "answer": 2,
       "alternatives": [
          "Santos dumont",
          "Irmão Wright",
@@ -28,7 +28,7 @@
       "image": "https://2.bp.blogspot.com/-UYY81oiFBBw/VJc6UMQBw6I/AAAAAAAAGY4/jfYpNEk9Ooo/s1600/arriety_500.gif",
       "title": "No filme \"O Mundo dos Pequeninos\" com quem a protagonista, Arriety, mora?",
       "description": "",
-      "answer": 0,
+      "answer": 2,
       "alternatives": [
          "Seus irmãos",
          "Seus tios",
@@ -39,7 +39,7 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxW4ciBR1dc9RoSqJuS0Ruchnk2ivX72EsQ&usqp=CAU",
       "title": "Em \"A Viagem de Chihiro\", Quem consegue o emprego na casa de banhos para Chihiro?",
       "description": "",
-      "answer": 0,
+      "answer": 1,
       "alternatives": [
          "Haku",
          "Kamaji",
@@ -50,7 +50,7 @@
       "image": "https://steamuserimages-a.akamaihd.net/ugc/273970711320541036/274406C90E9A9142A2FB50F89437B696901F9B6E/",
       "title": "No filme \"A Princesa Mononoke\", Como é chamada a mãe de Sen?",
       "description": "",
-      "answer": 0,
+      "answer": 2,
       "alternatives": [
          "Mononoke",
          "Eboshi",
@@ -61,7 +61,7 @@
       "image": "https://static.wixstatic.com/media/94d0c4_f91bda0912cd408c9150d59951d2eb02~mv2.gif",
       "title": "Qual o nome da canção criada por Shizuku em \"Sussurros do Coração\"?",
       "description": "",
-      "answer": 0,
+      "answer": 2,
       "alternatives": [
          "Country roads",
          "Take me home, country roads",
@@ -72,7 +72,7 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsHTxWMvt-noKyiW9vzGjAJo6U9BlEakb80A&usqp=CAU",
       "title": "Qual o verdadeiro nome do protagonista de \"Porco Rosso: O Último Herói Romântico\"?",
       "description": "",
-      "answer": 0,
+      "answer": 1,
       "alternatives": [
          "Porco Rosso",
          "Marco Pagot",
@@ -96,7 +96,7 @@
       "image": "https://i.pinimg.com/originals/24/8f/65/248f657778824d2d988d7b631c0e23df.gif",
       "title": "No \"O Castelo no Céu\", Quem ajudou os pratagonistas a chagarem em Laputa?",
       "description": "",
-      "answer": 0,
+      "answer": 1,
       "alternatives": [
          "Exercito",
          "Piratas",
@@ -107,7 +107,7 @@
       "image": "https://www.omegascopio.com.br/wp-content/uploads/2020/03/nausican.jpg",
       "title": "Qual o nome dos insetos gigantes que paracem bedouros em \"Nausicaä do Vale do Vento\"",
       "description": "",
-      "answer": 0,
+      "answer": 1,
       "alternatives": [
          "Torumekian",
          "Ohmu",
@@ -118,7 +118,7 @@
       "image": "https://4.bp.blogspot.com/-6fm-0SFWkb4/UjSJs5YSpnI/AAAAAAAAB0Q/PhNGArpcfTM/s1600/o+castelo+animado+4.gif",
       "title": "Em o \"Castelo animado\", quem é na verdade o espantalho cabeça de nabo?",
       "description": "",
-      "answer": 0,
+      "answer": 3,
       "alternatives": [
          "Calcifer, O demonio",
          "O grande bruxo Pendragon",
@@ -129,7 +129,7 @@
       "image": "https://www.japaoemfoco.com/wp-content/uploads/2013/09/Studio-Ghibli-Hayao-Miyazaki.jpg",
       "title": "Quais são os pricipais temas abordados nas animações criadas pelo estudio?",
       "description": "",
-      "answer": 0,
+      "answer": 1,
       "alternatives": [
         "Um retrato do mundo moderno e suas incriveis inovações",
         "Relação entre humanidade, natureza e tecnologia, diferença dos padrões de vida naturais e tradicionais e a dificuldade de manter uma ética pacifista em um mundo violento.",
@@ -146,8 +146,8 @@
       "secondary": "#4615b2",
       "mainBg": "#171B35",
       "contrastText": "#FFFFFF",
-      "wrong": "#FF5722",
-      "success": "#4CAF50"
+      "wrong": "#ff0000",
+      "success": "#008000"
     },
     "borderRadius": "4px"
   }
