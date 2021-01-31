@@ -48,6 +48,7 @@ Widget.Content = styled.div`
     display: block;
     margin: 0 auto;
   }
+  .questionName { font-size: 0.8em; }
 `;
 
 Widget.Topic = styled.a`
@@ -68,8 +69,17 @@ Widget.Topic = styled.a`
   }
   input[type="radio"] {
     display: none;
-    /*&:checked {  } */
+    /*  &:checked {  } */
   }
+`;
+
+Widget.QuestionResult = styled.div`
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 1.5em;
+  margin-top: 0.3em;
+  font-size: 5em;
 `;
 
 export default Widget;

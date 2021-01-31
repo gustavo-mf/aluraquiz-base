@@ -15,6 +15,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Lato', sans-serif;
     // Deixa branco no começo
     color: ${({ theme }) => theme.colors.contrastText};
+
+    @media screen and (max-width: 500px) {
+      background-color: ${({ theme }) => theme.colors.mainBg};
+    }
   }
   html, body {
     min-height: 100vh;

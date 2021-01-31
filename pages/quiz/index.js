@@ -2,6 +2,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Loader from 'react-loader-spinner';
+import { IoCheckmarkSharp, IoCloseSharp } from 'react-icons/io5';
 
 import db from '../../db.json';
 import Widget from '../../src/components/widget';
@@ -15,14 +16,13 @@ import BackLinkArrow from '../../src/components/BackLinkArrow';
 function ResultWidget({ results }) {
   const router = useRouter();
   const nomeParticipante = router.query.name;
+  const labelNome = (nomeParticipante && nomeParticipante.length > 0 ? `, ${nomeParticipante}` : '');
   return (
     <Widget>
-      <Widget.Header>
+      <Widget.Header style={{ display: 'inline-block' }}>
         <BackLinkArrow href="/" />
         Muito bem
-        {
-          (nomeParticipante && nomeParticipante.length > 0 ? `, ${nomeParticipante}` : '')
-        }
+        <strong>{labelNome}</strong>
         . Aqui esta o resultado do quiz:
       </Widget.Header>
 
@@ -47,12 +47,13 @@ function ResultWidget({ results }) {
             const questionIndex = index + 1;
             return (
               <li key={`question__${questionIndex}`}>
-                #
-                {
-                  (questionIndex < 10 ? '0' : '') + questionIndex
-                }
-                { /* ` ${question.title}` */ }
-                Resultado:
+                <strong>
+                  #
+                  {
+                    (questionIndex < 10 ? '0' : '') + questionIndex
+                  }
+                </strong>
+                <span className="questionName">{ ` ${question.title}` }</span>
                 { question.isCorrect === true ? ' Acertou' : ' Errou' }
               </li>
             );
@@ -92,6 +93,7 @@ function QuestionWidget({
 }) {
   const [selectedAlternative, setSelectedAlternative] = React.useState(undefined);
   const [isQuestionSubmited, setIsQuestionSubmited] = React.useState(false);
+  const [showLabelBtnConfirmar, setshowLabelBtnConfirmar] = React.useState(true);
   const questionId = `question__${questionIndex}`;
   const isCorrect = selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
@@ -122,6 +124,7 @@ function QuestionWidget({
         <AlternativesForm onSubmit={(infosEvento) => {
           infosEvento.preventDefault();
           setIsQuestionSubmited(true);
+          setshowLabelBtnConfirmar(false);
           setTimeout(() => {
             addResult(
               { title: question.title, isCorrect },
@@ -129,6 +132,7 @@ function QuestionWidget({
             onSubmit();
             setIsQuestionSubmited(false);
             setSelectedAlternative(undefined);
+            setshowLabelBtnConfirmar(true);
           }, 3 * 1000);
         }}
         >
@@ -158,12 +162,39 @@ function QuestionWidget({
             );
           })}
           <Button type="submit" disabled={!hasAlternativeSelected}>
-            Confirmar
+            { !showLabelBtnConfirmar
+            && (
+              <Loader
+                type="Oval"
+                color={db.theme.colors.contrastText}
+                height={30}
+                width={30}
+                timeout={0}
+              />
+            )}
+
+            { showLabelBtnConfirmar && 'Confirmar' }
+
           </Button>
 
-          {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
+          {
+            isQuestionSubmited && isCorrect
+            && (
+              <Widget.QuestionResult>
+                <IoCheckmarkSharp style={{ color: db.theme.colors.success }} />
+              </Widget.QuestionResult>
+            )
+          }
 
-          {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
+          {
+            isQuestionSubmited && !isCorrect
+            && (
+              <Widget.QuestionResult>
+                <IoCloseSharp style={{ color: db.theme.colors.wrong }} />
+              </Widget.QuestionResult>
+            )
+          }
+
         </AlternativesForm>
       </Widget.Content>
     </Widget>
@@ -205,6 +236,11 @@ export default function QuizPage() {
       setCurrentQuestion(nextQuestion);
     } else {
       setScreenState(screenStates.RESULT);
+    }
+    // Gambis pra desmarcar o input da questão anterior
+    const inputCheked = document.querySelector('input:checked');
+    if (inputCheked) {
+      inputCheked.checked = false;
     }
   }
 
