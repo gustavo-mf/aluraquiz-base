@@ -1,15 +1,16 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { useRouter } from 'next/router';
-
-import db from '../db.json';
-import Widget from '../src/components/widget';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizContainer from '../src/components/QuizContainer';
-import Button from '../src/components/Button';
-import AlternativesForm from '../src/components/AlternativesForm';
 import Loader from 'react-loader-spinner';
+
+import db from '../../db.json';
+import Widget from '../../src/components/widget';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizContainer from '../../src/components/QuizContainer';
+import Button from '../../src/components/Button';
+import AlternativesForm from '../../src/components/AlternativesForm';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
 
 function ResultWidget({ results }) {
   const router = useRouter();
@@ -17,6 +18,7 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         Muito bem
         {
           (nomeParticipante && nomeParticipante.length > 0 ? `, ${nomeParticipante}` : '')
@@ -96,7 +98,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
-        {/* <BalinkArrow href="/" /> */}
+        <BackLinkArrow href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
